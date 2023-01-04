@@ -1,0 +1,79 @@
+@media(max-width: 1050px) {
+
+    main {
+        width: 800px;
+    }
+}
+
+@media(max-width: 870px) {
+
+    main {
+        width: 700px;
+    }
+
+    iframe {
+        width: 600px ;
+        height: 400px;
+    }
+
+
+}
+
+@media(max-width: 750px) {
+
+    main {
+        width: 550px;
+    }
+
+    iframe {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media(max-width: 640px) {
+
+    nav {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: medium;
+    }
+
+    header {
+        height: 190px;
+    }
+
+}
+
+@media(max-width: 600px) {
+
+    main {
+        width: 450px;
+    }
+
+    iframe {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media(max-width: 520px) {
+    
+    main {
+        width:420px ;
+    }
+
+    iframe {
+        width: 370px;
+        height: 235px;
+    }
+}
+
+
+

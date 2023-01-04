@@ -1,0 +1,205 @@
+body {
+    margin: 0%;
+    background-color: #EBE5C5;
+}
+
+/*FONTES*/
+@font-face {
+    font-family: 'droid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+
+
+}
+.customfont {   color: black;
+    text-indent: 25px;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 5px 0px 5px 0px;
+
+}
+
+    
+    
+
+/*HEADER !!!!!*/
+
+
+
+header {
+    text-align: center;
+    background-color: green;
+    background-image: linear-gradient(to right , #063D1E, #2DA362 );
+    
+    padding-top: 15px;
+    height: 280px;
+    box-shadow: 0px 0px 10px 0px black;
+   
+    }
+
+h1 {
+
+    font-family:'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 46px;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;}
+
+nav {
+    padding-top: 30px;
+    text-align: left;
+}
+
+nav > a {
+    
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px ;
+}
+
+nav :hover {
+    background-color: #20814C;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+    
+    
+}
+
+
+
+
+/*MAIN !!!!!!!!*/
+
+main {
+    
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 980px;
+    ;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.288);
+}
+section > h1 {
+    color: #063D1E;
+    font-size: xx-large;
+    font-family: 'droid','Courier New', Courier, monospace;
+}
+
+section > h2 {
+     
+    
+    color: #063D1E;
+    font-family: 'droid','Courier New', Courier, monospace;
+    background-image: linear-gradient(to right, #8be7b3, #ffffff );
+    text-indent: 10px;
+    
+}
+
+
+section > picture > img {
+    display: block;
+    margin: auto;
+}
+
+section > picture {
+    display: block;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+article {
+    padding: 40px 30px 80px 30px;
+   
+    background-color: #063D1E;
+    
+   
+    
+}
+
+article > iframe {
+    display: block;
+    margin: auto;
+    
+}
+
+article > ol {
+    display: inline-block;
+    
+}
+
+#extra {
+    background-color: #8be7b3;
+    margin: 20px;
+    padding: 10px ;
+    border-radius: 10px;
+    
+    
+}
+
+#extra > h3 {
+    color: white;
+    text-indent: 5px ;
+    padding: 5px;
+    background-color: #0b5f2f;
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px;
+    
+    
+}
+#extra > ol {
+    padding: 0px 50px 0px 30px ;
+    list-style: inside;
+
+}
+
+ol > li {
+    padding: 0px 30px 0px 30px ;
+}
+
+/*config links palavras chaves*/
+
+a {
+
+    text-decoration: none;
+    color:#2DA362;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/*FOOTER !!!!!!!!!!*/
+footer {
+    background-color: #0b5f2f;
+    text-align: center;
+    margin: 0%;
+    padding-bottom: 3px;
+    
+}
+
+footer > p {
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+}
+
+
+
